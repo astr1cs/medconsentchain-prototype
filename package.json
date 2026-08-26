@@ -9,7 +9,13 @@
     "deploy": "npx hardhat run scripts/deploy.js --network sepolia",
     "trials": "node scripts/runTrialsDirect.js"
   },
-  "keywords": ["blockchain", "EHR", "consent", "ethereum", "solidity"],
+  "keywords": [
+    "blockchain",
+    "EHR",
+    "consent",
+    "ethereum",
+    "solidity"
+  ],
   "author": "Md Meraz Uddin, Fahim Uddin Shad",
   "license": "MIT",
   "devDependencies": {
@@ -24,7 +30,7 @@
     "@types/mocha": "^10.0.10",
     "@types/node": "^22.20.1",
     "chai": "^4.5.0",
-    "dotenv": "^16.4.5",
+    "dotenv": "^16.6.1",
     "ethers": "^6.13.0",
     "hardhat": "^2.22.0",
     "hardhat-gas-reporter": "^1.0.10",

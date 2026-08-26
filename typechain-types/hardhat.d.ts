@@ -21,6 +21,14 @@ declare module "hardhat/types/runtime" {
       name: "NaiveBaseline",
       signerOrOptions?: ethers.Signer | FactoryOptions
     ): Promise<Contracts.NaiveBaseline__factory>;
+    getContractFactory(
+      name: "IConsentGateway",
+      signerOrOptions?: ethers.Signer | FactoryOptions
+    ): Promise<Contracts.IConsentGateway__factory>;
+    getContractFactory(
+      name: "ProxyAccessLayer",
+      signerOrOptions?: ethers.Signer | FactoryOptions
+    ): Promise<Contracts.ProxyAccessLayer__factory>;
 
     getContractAt(
       name: "MedConsent",
@@ -32,6 +40,16 @@ declare module "hardhat/types/runtime" {
       address: string | ethers.Addressable,
       signer?: ethers.Signer
     ): Promise<Contracts.NaiveBaseline>;
+    getContractAt(
+      name: "IConsentGateway",
+      address: string | ethers.Addressable,
+      signer?: ethers.Signer
+    ): Promise<Contracts.IConsentGateway>;
+    getContractAt(
+      name: "ProxyAccessLayer",
+      address: string | ethers.Addressable,
+      signer?: ethers.Signer
+    ): Promise<Contracts.ProxyAccessLayer>;
 
     deployContract(
       name: "MedConsent",
@@ -41,6 +59,14 @@ declare module "hardhat/types/runtime" {
       name: "NaiveBaseline",
       signerOrOptions?: ethers.Signer | DeployContractOptions
     ): Promise<Contracts.NaiveBaseline>;
+    deployContract(
+      name: "IConsentGateway",
+      signerOrOptions?: ethers.Signer | DeployContractOptions
+    ): Promise<Contracts.IConsentGateway>;
+    deployContract(
+      name: "ProxyAccessLayer",
+      signerOrOptions?: ethers.Signer | DeployContractOptions
+    ): Promise<Contracts.ProxyAccessLayer>;
 
     deployContract(
       name: "MedConsent",
@@ -52,6 +78,16 @@ declare module "hardhat/types/runtime" {
       args: any[],
       signerOrOptions?: ethers.Signer | DeployContractOptions
     ): Promise<Contracts.NaiveBaseline>;
+    deployContract(
+      name: "IConsentGateway",
+      args: any[],
+      signerOrOptions?: ethers.Signer | DeployContractOptions
+    ): Promise<Contracts.IConsentGateway>;
+    deployContract(
+      name: "ProxyAccessLayer",
+      args: any[],
+      signerOrOptions?: ethers.Signer | DeployContractOptions
+    ): Promise<Contracts.ProxyAccessLayer>;
 
     // default types
     getContractFactory(
