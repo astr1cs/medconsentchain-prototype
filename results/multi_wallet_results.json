@@ -1,0 +1,348 @@
+{
+  "summary": {
+    "totalWallets": 20,
+    "successful": 20,
+    "failed": 0,
+    "inv01Pass": 20,
+    "gas": {
+      "deployGas": {
+        "mean": 1235902,
+        "min": 1235902,
+        "max": 1235902,
+        "p95": 1235902
+      },
+      "addGas": {
+        "mean": 143220.4,
+        "min": 143191,
+        "max": 143239,
+        "p95": 143239
+      },
+      "grantGas": {
+        "mean": 96720.6,
+        "min": 96714,
+        "max": 96726,
+        "p95": 96726
+      },
+      "revokeGas": {
+        "mean": 35438.6,
+        "min": 35432,
+        "max": 35444,
+        "p95": 35444
+      },
+      "checkGas": {
+        "mean": 34059.6,
+        "min": 34053,
+        "max": 34065,
+        "p95": 34065
+      }
+    },
+    "blockDeltas": {
+      "mean": 49.8,
+      "min": 36,
+      "max": 60,
+      "p95": 60
+    }
+  },
+  "trials": [
+    {
+      "walletIndex": 1,
+      "address": "0xC4c8011eF9Be30E7Fdd93f629A1B16b6b5E6a504",
+      "contractAddr": "0x8424e05B2786011721c09c064eb4CE37b58E851b",
+      "gas": {
+        "deploy": 1235902,
+        "addRecord": 143203,
+        "grantPermission": 96714,
+        "revokePermission": 35432,
+        "checkPermission": 34053
+      },
+      "blockDeltaSeconds": 48,
+      "error": null,
+      "postRevokeAllowed": false
+    },
+    {
+      "walletIndex": 2,
+      "address": "0x58F678FBEEb9a757d2e8478de9e6F32e8f25E888",
+      "contractAddr": "0xB20A06C9813040bdf8a289d05A11f62b5C1b39f5",
+      "gas": {
+        "deploy": 1235902,
+        "addRecord": 143191,
+        "grantPermission": 96714,
+        "revokePermission": 35432,
+        "checkPermission": 34053
+      },
+      "blockDeltaSeconds": 60,
+      "error": null,
+      "postRevokeAllowed": false
+    },
+    {
+      "walletIndex": 3,
+      "address": "0xA505ce3741451e233A1E68cB25c3f5D79CCc2ed7",
+      "contractAddr": "0xe11869bb45DC6a7d371BBa89eb3f85a9415384cc",
+      "gas": {
+        "deploy": 1235902,
+        "addRecord": 143203,
+        "grantPermission": 96714,
+        "revokePermission": 35432,
+        "checkPermission": 34053
+      },
+      "blockDeltaSeconds": 48,
+      "error": null,
+      "postRevokeAllowed": false
+    },
+    {
+      "walletIndex": 4,
+      "address": "0xf9F41A20404B4b51f942d25206E61Aaa64463319",
+      "contractAddr": "0x880eCDAd5C9C14B81a3d28533e1ff2ED1948B613",
+      "gas": {
+        "deploy": 1235902,
+        "addRecord": 143203,
+        "grantPermission": 96714,
+        "revokePermission": 35432,
+        "checkPermission": 34053
+      },
+      "blockDeltaSeconds": 48,
+      "error": null,
+      "postRevokeAllowed": false
+    },
+    {
+      "walletIndex": 5,
+      "address": "0x946Fb8cBa8C769A21F07653e34b295066E44328d",
+      "contractAddr": "0x5D6d12E7686CAeBDEc24b784ff263D5772a399FD",
+      "gas": {
+        "deploy": 1235902,
+        "addRecord": 143203,
+        "grantPermission": 96714,
+        "revokePermission": 35432,
+        "checkPermission": 34053
+      },
+      "blockDeltaSeconds": 48,
+      "error": null,
+      "postRevokeAllowed": false
+    },
+    {
+      "walletIndex": 6,
+      "address": "0x89dE0b0d57c88538cBdBC497157f8Dc283190C39",
+      "contractAddr": "0xe56287715b4f11E56009841761Dd3de0aa337b29",
+      "gas": {
+        "deploy": 1235902,
+        "addRecord": 143203,
+        "grantPermission": 96714,
+        "revokePermission": 35432,
+        "checkPermission": 34053
+      },
+      "blockDeltaSeconds": 48,
+      "error": null,
+      "postRevokeAllowed": false
+    },
+    {
+      "walletIndex": 7,
+      "address": "0x998d2cCB3182E9DB5eC6E9954F6f5d546C62486F",
+      "contractAddr": "0xf140d84cb24931248514f1a9D2230066715c0204",
+      "gas": {
+        "deploy": 1235902,
+        "addRecord": 143203,
+        "grantPermission": 96714,
+        "revokePermission": 35432,
+        "checkPermission": 34053
+      },
+      "blockDeltaSeconds": 48,
+      "error": null,
+      "postRevokeAllowed": false
+    },
+    {
+      "walletIndex": 8,
+      "address": "0x93e162C59b0F07C13d5F8bA0C736D4EAAfBA0f39",
+      "contractAddr": "0x7e60246E8B1fD38790E9B7D86A5Fec4E1930043E",
+      "gas": {
+        "deploy": 1235902,
+        "addRecord": 143203,
+        "grantPermission": 96714,
+        "revokePermission": 35432,
+        "checkPermission": 34053
+      },
+      "blockDeltaSeconds": 48,
+      "error": null,
+      "postRevokeAllowed": false
+    },
+    {
+      "walletIndex": 9,
+      "address": "0xfd5d60D241Bbfa3cFba3Fc1781f5e59D3f0893D8",
+      "contractAddr": "0xA1fF21c26dD32E4B82c3ef2b30E8667D73E3498E",
+      "gas": {
+        "deploy": 1235902,
+        "addRecord": 143191,
+        "grantPermission": 96714,
+        "revokePermission": 35432,
+        "checkPermission": 34053
+      },
+      "blockDeltaSeconds": 36,
+      "error": null,
+      "postRevokeAllowed": false
+    },
+    {
+      "walletIndex": 10,
+      "address": "0x04d611fAC05Dc883F49961E87D861960db99E9f1",
+      "contractAddr": "0x912d778888900A92b970CaB05060CD36447b2459",
+      "gas": {
+        "deploy": 1235902,
+        "addRecord": 143239,
+        "grantPermission": 96726,
+        "revokePermission": 35444,
+        "checkPermission": 34065
+      },
+      "blockDeltaSeconds": 60,
+      "error": null,
+      "postRevokeAllowed": false
+    },
+    {
+      "walletIndex": 11,
+      "address": "0x037b1775108Afd157dF68658d9c13c2fC54519ba",
+      "contractAddr": "0xE957F0C1dbeC267BD38f56290d684c4757BD9ce8",
+      "gas": {
+        "deploy": 1235902,
+        "addRecord": 143239,
+        "grantPermission": 96726,
+        "revokePermission": 35444,
+        "checkPermission": 34065
+      },
+      "blockDeltaSeconds": 48,
+      "error": null,
+      "postRevokeAllowed": false
+    },
+    {
+      "walletIndex": 12,
+      "address": "0x259a551549390a4ab526E62176612e56652E498f",
+      "contractAddr": "0x96E0228ea0cCF83E1E7Dd138625cB3ba27e3d7cC",
+      "gas": {
+        "deploy": 1235902,
+        "addRecord": 143239,
+        "grantPermission": 96726,
+        "revokePermission": 35444,
+        "checkPermission": 34065
+      },
+      "blockDeltaSeconds": 60,
+      "error": null,
+      "postRevokeAllowed": false
+    },
+    {
+      "walletIndex": 13,
+      "address": "0xe37e14AfD65bC20a6046566a4D2E471A2866621f",
+      "contractAddr": "0x2A30Eb57C6e0658A55874d714804373f2b6FFb7A",
+      "gas": {
+        "deploy": 1235902,
+        "addRecord": 143239,
+        "grantPermission": 96726,
+        "revokePermission": 35444,
+        "checkPermission": 34065
+      },
+      "blockDeltaSeconds": 48,
+      "error": null,
+      "postRevokeAllowed": false
+    },
+    {
+      "walletIndex": 14,
+      "address": "0x99BB23d8462d8332640fF075726A00FE9091E2ab",
+      "contractAddr": "0x00Ab9c58d04Fe3ac2260Fb1179870ACbD5AcBACF",
+      "gas": {
+        "deploy": 1235902,
+        "addRecord": 143227,
+        "grantPermission": 96726,
+        "revokePermission": 35444,
+        "checkPermission": 34065
+      },
+      "blockDeltaSeconds": 60,
+      "error": null,
+      "postRevokeAllowed": false
+    },
+    {
+      "walletIndex": 15,
+      "address": "0xA1c992587C517Cc074ADbec64deBD5823Da205d8",
+      "contractAddr": "0xD710D3990F04A89e6D4D9662e74339b17e3FC371",
+      "gas": {
+        "deploy": 1235902,
+        "addRecord": 143239,
+        "grantPermission": 96726,
+        "revokePermission": 35444,
+        "checkPermission": 34065
+      },
+      "blockDeltaSeconds": 48,
+      "error": null,
+      "postRevokeAllowed": false
+    },
+    {
+      "walletIndex": 16,
+      "address": "0xF2b898Bf6bC6D94582EFF6e0733C0ad2114D0bEA",
+      "contractAddr": "0x1F629e205fEa62eD0146EA6c95e159Df16b1a32d",
+      "gas": {
+        "deploy": 1235902,
+        "addRecord": 143239,
+        "grantPermission": 96726,
+        "revokePermission": 35444,
+        "checkPermission": 34065
+      },
+      "blockDeltaSeconds": 48,
+      "error": null,
+      "postRevokeAllowed": false
+    },
+    {
+      "walletIndex": 17,
+      "address": "0xFe89058185812f9B9CeD2444D881a7A083F2191b",
+      "contractAddr": "0x901d04a828f5E87eAdAf584b61c280605FfBCa75",
+      "gas": {
+        "deploy": 1235902,
+        "addRecord": 143239,
+        "grantPermission": 96726,
+        "revokePermission": 35444,
+        "checkPermission": 34065
+      },
+      "blockDeltaSeconds": 36,
+      "error": null,
+      "postRevokeAllowed": false
+    },
+    {
+      "walletIndex": 18,
+      "address": "0x8D191AC1D2B54e79faDb4B8C64A9947983fB7e57",
+      "contractAddr": "0xa8f48Ea59F704CaF00EA3A4527eD038436EfA810",
+      "gas": {
+        "deploy": 1235902,
+        "addRecord": 143239,
+        "grantPermission": 96726,
+        "revokePermission": 35444,
+        "checkPermission": 34065
+      },
+      "blockDeltaSeconds": 48,
+      "error": null,
+      "postRevokeAllowed": false
+    },
+    {
+      "walletIndex": 19,
+      "address": "0xc4d0f319994A4716F8d0B61825c7e37FaFC8953b",
+      "contractAddr": "0x24b3F8fc4dD58584CB7f0ad9Aa37a78Ae4451268",
+      "gas": {
+        "deploy": 1235902,
+        "addRecord": 143239,
+        "grantPermission": 96726,
+        "revokePermission": 35444,
+        "checkPermission": 34065
+      },
+      "blockDeltaSeconds": 48,
+      "error": null,
+      "postRevokeAllowed": false
+    },
+    {
+      "walletIndex": 20,
+      "address": "0x5119013eaFc5eEA62504e63c8b46Fc3D53b409C8",
+      "contractAddr": "0x761f4097238e61cD3E57bd41b123862C3EbB7F31",
+      "gas": {
+        "deploy": 1235902,
+        "addRecord": 143227,
+        "grantPermission": 96726,
+        "revokePermission": 35444,
+        "checkPermission": 34065
+      },
+      "blockDeltaSeconds": 60,
+      "error": null,
+      "postRevokeAllowed": false
+    }
+  ]
+}
